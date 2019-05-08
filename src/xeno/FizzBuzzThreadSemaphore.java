@@ -1,20 +1,18 @@
 package xeno;
 
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.Semaphore;
 
-public class FizzBuzzThreadLock implements Runnable {
-    private static Lock _lock = new ReentrantLock();
-    protected static final String NAME = "Lock";
+public class FizzBuzzThreadSemaphore implements Runnable {
     protected static int _current = 1;
+    protected static final String NAME = "Semaphore";
+    private static Semaphore _semaphore = new Semaphore(1);
 
     private boolean _checkThree;
     private boolean _checkFive;
     private int _max;
     private String _toPrint;
 
-
-    public FizzBuzzThreadLock(boolean checkThree, boolean checkFive, int max, String toPrint) {
+    public FizzBuzzThreadSemaphore (boolean checkThree, boolean checkFive, int max, String toPrint) {
         _checkFive = checkFive;
         _checkThree = checkThree;
         _max = max;
@@ -28,9 +26,9 @@ public class FizzBuzzThreadLock implements Runnable {
     @Override
     public void run() {
         while (true) {
-            if (_lock.tryLock()) {
+            if (_semaphore.tryAcquire()) {
                 if (_current > _max) {
-                    _lock.unlock();
+                    _semaphore.release();
                     return;
                 }
 
@@ -39,7 +37,7 @@ public class FizzBuzzThreadLock implements Runnable {
                     _current++;
                 }
 
-                _lock.unlock();
+                _semaphore.release();
             }
         }
     }

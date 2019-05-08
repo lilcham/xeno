@@ -1,7 +1,8 @@
 package xeno;
 
 public class FizzBuzzThreadSynchronized implements Runnable {
-    private static int _current = 0;
+    protected static int _current = 1;
+    protected static final String NAME = "Synchronized";
     private static Object _lock = new Object();
 
     private boolean _checkThree;
@@ -17,6 +18,10 @@ public class FizzBuzzThreadSynchronized implements Runnable {
         _toPrint = toPrint;
     }
 
+    public void print() {
+        System.out.println(NAME + ": " + _toPrint);
+    }
+
     @Override
     public void run() {
         while (true) {
@@ -26,12 +31,9 @@ public class FizzBuzzThreadSynchronized implements Runnable {
                 }
 
                 if ((_current % 3 == 0) == _checkThree && (_current % 5 == 0) == _checkFive) {
-                    System.out.println(_toPrint);
-                } else {
-                    System.out.println(_current);
+                    print();
+                    _current++;
                 }
-
-                _current++;
             }
         }
     }
