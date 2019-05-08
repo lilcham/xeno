@@ -1,11 +1,8 @@
 package xeno;
 
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-
-public class FizzBuzzThread implements Runnable {
-    private static Lock _lock;
+public class FizzBuzzThreadSynchronized implements Runnable {
     private static int _current = 0;
+    private static Object _lock = new Object();
 
     private boolean _checkThree;
     private boolean _checkFive;
@@ -13,8 +10,7 @@ public class FizzBuzzThread implements Runnable {
     private String _toPrint;
 
 
-    public FizzBuzzThread(boolean checkThree, boolean checkFive, int max, String toPrint) {
-        _lock = new ReentrantLock();
+    public FizzBuzzThreadSynchronized (boolean checkThree, boolean checkFive, int max, String toPrint) {
         _checkFive = checkFive;
         _checkThree = checkThree;
         _max = max;
@@ -24,9 +20,8 @@ public class FizzBuzzThread implements Runnable {
     @Override
     public void run() {
         while (true) {
-            if (_lock.tryLock()) {
+            synchronized (_lock) {
                 if (_current > _max) {
-                    _lock.unlock();
                     return;
                 }
 
@@ -37,7 +32,6 @@ public class FizzBuzzThread implements Runnable {
                 }
 
                 _current++;
-                _lock.unlock();
             }
         }
     }

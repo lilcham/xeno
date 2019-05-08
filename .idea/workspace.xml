@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0d36b53-b808-4141-83c3-e5326b81294d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xeno/CurrentThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xeno/FizzBuzzThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/xeno/Main.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/CurrentThread.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/FizzBuzzThread.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/CurrentThread.java" afterPath="$PROJECT_DIR$/src/xeno/FizzBuzzThreadSynchronized.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/FizzBuzzThread.java" afterPath="$PROJECT_DIR$/src/xeno/FizzBuzzThreadLock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/xeno/Main.java" afterPath="$PROJECT_DIR$/src/xeno/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +54,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xeno/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FizzBuzzThread.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/xeno/FizzBuzzThread.java">
+      <file leaf-file-name="FizzBuzzThreadLock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xeno/FizzBuzzThreadLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xeno/CurrentThread.java">
+      <file leaf-file-name="FizzBuzzThreadSynchronized.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/xeno/FizzBuzzThreadSynchronized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="495">
+              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -176,9 +178,11 @@
         <option value="$PROJECT_DIR$/src/synchro/Task.java" />
         <option value="$PROJECT_DIR$/src/synchro/Database.java" />
         <option value="$PROJECT_DIR$/src/xeno/Task.java" />
-        <option value="$PROJECT_DIR$/src/xeno/Main.java" />
         <option value="$PROJECT_DIR$/src/xeno/CurrentThread.java" />
         <option value="$PROJECT_DIR$/src/xeno/FizzBuzzThread.java" />
+        <option value="$PROJECT_DIR$/src/xeno/FizzBuzzThreadLock.java" />
+        <option value="$PROJECT_DIR$/src/xeno/FizzBuzzThreadSynchronized.java" />
+        <option value="$PROJECT_DIR$/src/xeno/Main.java" />
       </list>
     </option>
   </component>
@@ -465,12 +469,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556171624044</updated>
       <workItem from="1556171627498" duration="926000" />
-      <workItem from="1557013086090" duration="14092000" />
+      <workItem from="1557013086090" duration="14661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15018000" />
+    <option name="totallyTimeSpent" value="15587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -674,24 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xeno/CurrentThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xeno/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/numbers/NumbersConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -700,13 +686,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xeno/FizzBuzzThread.java">
+    <entry file="file://$PROJECT_DIR$/src/xeno/FizzBuzzThreadLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xeno/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xeno/FizzBuzzThreadSynchronized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

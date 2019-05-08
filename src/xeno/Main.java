@@ -11,9 +11,16 @@ public class Main {
 
         ExecutorService pool = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
-        pool.execute(new FizzBuzzThread(true, true, MAX, "FizzBuzz"));
-        pool.execute(new FizzBuzzThread(true, false, MAX, "Fizz"));
-        pool.execute(new FizzBuzzThread(false, true, MAX, "Buzz"));
-        pool.execute(new FizzBuzzThread(false, false, MAX, ""));
+        /*
+        pool.execute(new FizzBuzzThreadLock(true, true, MAX, "FizzBuzz"));
+        pool.execute(new FizzBuzzThreadLock(true, false, MAX, "Fizz"));
+        pool.execute(new FizzBuzzThreadLock(false, true, MAX, "Buzz"));
+        pool.execute(new FizzBuzzThreadLock(false, false, MAX, ""));
+        */
+
+        pool.execute(new FizzBuzzThreadSynchronized(true, true, MAX, "FizzBuzz"));
+        pool.execute(new FizzBuzzThreadSynchronized(true, false, MAX, "Fizz"));
+        pool.execute(new FizzBuzzThreadSynchronized(false, true, MAX, "Buzz"));
+        pool.execute(new FizzBuzzThreadSynchronized(false, false, MAX, ""));
     }
 }
