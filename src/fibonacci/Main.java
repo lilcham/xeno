@@ -10,5 +10,13 @@ public class Main {
         DecimalFormat formatter = new DecimalFormat("#,###");
 
         System.out.println("Answer = " + formatter.format(answer));
+
+        Task task = new Task();
+    }
+}
+
+class Task {
+    public Task() {
+        System.out.println("Kalana");
     }
 }
