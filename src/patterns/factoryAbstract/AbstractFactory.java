@@ -1,4 +1,4 @@
-package patterns.factory;
+package patterns.factoryAbstract;
 
 abstract class AbstractFactory {
     public Expression prototype;

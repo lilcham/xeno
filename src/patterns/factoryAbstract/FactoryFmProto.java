@@ -1,4 +1,4 @@
-package patterns.factory;
+package patterns.factoryAbstract;
 
 public class FactoryFmProto {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package patterns.factory;
+package patterns.factoryAbstract;
 
 class NotPCPhase extends Expression {
     private static int next = 0;
