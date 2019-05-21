@@ -2,44 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0d36b53-b808-4141-83c3-e5326b81294d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/WorkerThread.java" afterPath="$PROJECT_DIR$/src/concurrency/WorkerThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/executor/Main.java" afterPath="$PROJECT_DIR$/src/concurrency/executor/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/executor/Task.java" afterPath="$PROJECT_DIR$/src/concurrency/executor/Task.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/executor/TaskExecutor.java" afterPath="$PROJECT_DIR$/src/concurrency/executor/TaskExecutor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/executor/ThreadPool.java" afterPath="$PROJECT_DIR$/src/concurrency/executor/ThreadPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fibonacci/Fibonacci.java" afterPath="$PROJECT_DIR$/src/concurrency/fibonacci/Fibonacci.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fibonacci/Main.java" afterPath="$PROJECT_DIR$/src/concurrency/fibonacci/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/numbers/NumbersConsumer.java" afterPath="$PROJECT_DIR$/src/concurrency/numbers/NumbersConsumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/numbers/NumbersProducer.java" afterPath="$PROJECT_DIR$/src/concurrency/numbers/NumbersProducer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryAbstract/AbstractFactory.java" afterPath="$PROJECT_DIR$/src/patterns/factory/abs/AbstractFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryAbstract/Expression.java" afterPath="$PROJECT_DIR$/src/patterns/factory/abs/Expression.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryAbstract/FactoryFmProto.java" afterPath="$PROJECT_DIR$/src/patterns/factory/abs/FactoryFmProto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryAbstract/NotPCFactory.java" afterPath="$PROJECT_DIR$/src/patterns/factory/abs/NotPCFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryAbstract/NotPCPhase.java" afterPath="$PROJECT_DIR$/src/patterns/factory/abs/NotPCPhase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryAbstract/PCFactory.java" afterPath="$PROJECT_DIR$/src/patterns/factory/abs/PCFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryAbstract/PCPhase.java" afterPath="$PROJECT_DIR$/src/patterns/factory/abs/PCPhase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryMethod/DecodedImage.java" afterPath="$PROJECT_DIR$/src/patterns/factory/method/DecodedImage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryMethod/FactoryMethodDemo.java" afterPath="$PROJECT_DIR$/src/patterns/factory/method/FactoryMethodDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryMethod/GifReader.java" afterPath="$PROJECT_DIR$/src/patterns/factory/method/GifReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryMethod/ImageReader.java" afterPath="$PROJECT_DIR$/src/patterns/factory/method/ImageReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/factoryMethod/JpegReader.java" afterPath="$PROJECT_DIR$/src/patterns/factory/method/JpegReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/objectPool/JDBCConnectionPool.java" afterPath="$PROJECT_DIR$/src/patterns/pool/JDBCConnectionPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/objectPool/Main.java" afterPath="$PROJECT_DIR$/src/patterns/pool/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/patterns/objectPool/ObjectPool.java" afterPath="$PROJECT_DIR$/src/patterns/pool/ObjectPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/philosophers/Chopstick.java" afterPath="$PROJECT_DIR$/src/concurrency/philosophers/Chopstick.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/philosophers/Main.java" afterPath="$PROJECT_DIR$/src/concurrency/philosophers/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/philosophers/Philosopher.java" afterPath="$PROJECT_DIR$/src/concurrency/philosophers/Philosopher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/synchro/Database.java" afterPath="$PROJECT_DIR$/src/concurrency/synchro/Database.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/synchro/Main.java" afterPath="$PROJECT_DIR$/src/concurrency/synchro/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/synchro/Task.java" afterPath="$PROJECT_DIR$/src/concurrency/synchro/Task.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/CurrentThreadLock.java" afterPath="$PROJECT_DIR$/src/concurrency/xeno/CurrentThreadLock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/CurrentThreadSemaphore.java" afterPath="$PROJECT_DIR$/src/concurrency/xeno/CurrentThreadSemaphore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/CurrentThreadSynchronized.java" afterPath="$PROJECT_DIR$/src/concurrency/xeno/CurrentThreadSynchronized.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/FizzBuzzThreadLock.java" afterPath="$PROJECT_DIR$/src/concurrency/xeno/FizzBuzzThreadLock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/FizzBuzzThreadSemaphore.java" afterPath="$PROJECT_DIR$/src/concurrency/xeno/FizzBuzzThreadSemaphore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/FizzBuzzThreadSynchronized.java" afterPath="$PROJECT_DIR$/src/concurrency/xeno/FizzBuzzThreadSynchronized.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/xeno/Main.java" afterPath="$PROJECT_DIR$/src/concurrency/xeno/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/adapter/AdapterDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/adapter/Line.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/adapter/LineAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/adapter/Rectangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/adapter/RectangleAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/adapter/Shape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,83 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JDBCConnectionPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/pool/JDBCConnectionPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/pool/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/prototype/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/prototype/Tom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dick.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/prototype/Dick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Harry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/prototype/Harry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/prototype/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -168,11 +60,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkerThread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorkerThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/concurrency/WorkerThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Line.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/LineAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RectangleAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/RectangleAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdapterDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/adapter/AdapterDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -198,12 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/numbers/NumbersProducer.java" />
-        <option value="$PROJECT_DIR$/src/numbers/NumbersConsumer.java" />
-        <option value="$PROJECT_DIR$/src/philosophers/Chopstick.java" />
-        <option value="$PROJECT_DIR$/src/philosophers/Main.java" />
-        <option value="$PROJECT_DIR$/src/philosophers/Philosopher.java" />
-        <option value="$PROJECT_DIR$/src/synchro/Main.java" />
         <option value="$PROJECT_DIR$/src/synchro/Task.java" />
         <option value="$PROJECT_DIR$/src/synchro/Database.java" />
         <option value="$PROJECT_DIR$/src/xeno/Task.java" />
@@ -249,6 +203,12 @@
         <option value="$PROJECT_DIR$/src/patterns/prototype/PrototypeFactory.java" />
         <option value="$PROJECT_DIR$/src/patterns/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/concurrency/WorkerThread.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/Shape.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/Line.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/LineAdapter.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/RectangleAdapter.java" />
+        <option value="$PROJECT_DIR$/src/patterns/adapter/AdapteeDemo.java" />
       </list>
     </option>
   </component>
@@ -297,6 +257,13 @@
               <item name="xeno" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xeno" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xeno" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -557,15 +524,16 @@
       <updated>1556171624044</updated>
       <workItem from="1556171627498" duration="926000" />
       <workItem from="1557013086090" duration="19764000" />
-      <workItem from="1558387434115" duration="4148000" />
+      <workItem from="1558387434115" duration="4644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24838000" />
+    <option name="totallyTimeSpent" value="25334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -580,7 +548,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2452381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2452381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -608,54 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SimpleThreadPool.java" />
-    <entry file="file://$PROJECT_DIR$/src/concurrency/executor/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/xeno/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/xeno/CurrentThreadSemaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/numbers/NumbersConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/numbers/NumbersProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/concurrency/philosophers/Chopstick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1142,6 +1062,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/LineAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/RectangleAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/AdapterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
