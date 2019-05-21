@@ -15,7 +15,7 @@ class Stack {
             imp = new StackMine();
         }
     }
-    
+
     public Stack() {
         this("java");
     }
