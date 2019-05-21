@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0d36b53-b808-4141-83c3-e5326b81294d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/flyweight/ColorBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/flyweight/FlyweightDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/flyweight/ThreadPool.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/WorkerThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/executor/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/executor/Task.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/executor/TaskExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/executor/ThreadPool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/fibonacci/Fibonacci.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/fibonacci/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/fibonacci/Task.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/numbers/NumbersConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/numbers/NumbersProducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/patterns/factory/AbstractFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/patterns/factory/Expression.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/patterns/factory/FactoryFmProto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/patterns/factory/NotPCFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/patterns/factory/NotPCPhase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/patterns/factory/PCFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/patterns/factory/PCPhase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/philosophers/Chopstick.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/philosophers/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/philosophers/Philosopher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/synchro/Database.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/synchro/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/synchro/Task.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/CurrentThreadLock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/CurrentThreadSemaphore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/CurrentThreadSynchronized.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/FizzBuzzThreadLock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/FizzBuzzThreadSemaphore.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/FizzBuzzThreadSynchronized.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/xeno/xeno/Main.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/proxy/ProxyDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/proxy/SocketInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/proxy/SocketProxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LCD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/decorator/LCD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PointCartesian.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/facade/PointCartesian.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreadPool.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/flyweight/ThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -137,6 +97,38 @@
                 <element signature="e#944#945#0" expanded="true" />
                 <element signature="e#979#980#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/proxy/SocketInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/proxy/SocketProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProxyDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/proxy/ProxyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,16 +147,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacadeDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/facade/FacadeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/facade/Line.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -175,19 +157,6 @@
                 <element signature="e#302#303#0" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scramble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/decorator/Scramble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,9 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/patterns/factory/NotPCPhase.java" />
-        <option value="$PROJECT_DIR$/src/patterns/factory/NotPCFactory.java" />
-        <option value="$PROJECT_DIR$/src/patterns/factory/FactoryFmProto.java" />
         <option value="$PROJECT_DIR$/src/patterns/factoryAbstract/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/patterns/factoryMethod/ImageReader.java" />
         <option value="$PROJECT_DIR$/src/patterns/factoryMethod/DecodedImage.java" />
@@ -264,6 +230,9 @@
         <option value="$PROJECT_DIR$/src/patterns/flyweight/FlyweightDemo.java" />
         <option value="$PROJECT_DIR$/src/patterns/flyweight/ColorBox.java" />
         <option value="$PROJECT_DIR$/src/patterns/flyweight/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/patterns/proxy/SocketInterface.java" />
+        <option value="$PROJECT_DIR$/src/patterns/proxy/SocketProxy.java" />
+        <option value="$PROJECT_DIR$/src/patterns/proxy/ProxyDemo.java" />
       </list>
     </option>
   </component>
@@ -318,7 +287,7 @@
               <item name="xeno" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -579,12 +548,12 @@
       <updated>1556171624044</updated>
       <workItem from="1556171627498" duration="926000" />
       <workItem from="1557013086090" duration="19764000" />
-      <workItem from="1558387434115" duration="6958000" />
+      <workItem from="1558387434115" duration="7333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27648000" />
+    <option name="totallyTimeSpent" value="28023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -631,38 +600,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/patterns/factory/abs/NotPCPhase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/factory/abs/FactoryFmProto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/factory/abs/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/factory/abs/AbstractFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1191,6 +1128,32 @@
             <element signature="e#944#945#0" expanded="true" />
             <element signature="e#979#980#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/proxy/SocketInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/proxy/SocketProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/proxy/ProxyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
