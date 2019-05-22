@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0d36b53-b808-4141-83c3-e5326b81294d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/template/Generalization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/template/Realization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/template/Specialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/template/TemplateMethodDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/BAR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/BAZ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/DownVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/Element.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/FOO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/UpVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/Visitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/VisitorDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,112 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/strategy/Strategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategySolution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/strategy/StrategySolution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="e#54#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FOO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/strategy/FOO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategySearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/strategy/StrategySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BAR.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/strategy/BAR.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="e#28#52#1" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategyDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/strategy/StrategyDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Generalization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/template/Generalization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Specialization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/template/Specialization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Realization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/template/Realization.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,11 +42,120 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemplateMethodDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TemplateMethodDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/template/TemplateMethodDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/visitor/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FOO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/visitor/FOO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BAR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/visitor/BAR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#96#97#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BAZ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/visitor/BAZ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Visitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/visitor/Visitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpVisitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/visitor/UpVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownVisitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/visitor/DownVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="e#97#98#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VisitorDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/visitor/VisitorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -174,14 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/patterns/chain/LS.java" />
-        <option value="$PROJECT_DIR$/src/patterns/chain/Processor.java" />
-        <option value="$PROJECT_DIR$/src/patterns/chain/ChainDemo.java" />
-        <option value="$PROJECT_DIR$/src/patterns/command/SimpleCommand.java" />
-        <option value="$PROJECT_DIR$/src/patterns/command/ReflectCommand.java" />
-        <option value="$PROJECT_DIR$/src/patterns/command/CommandDemo.java" />
-        <option value="$PROJECT_DIR$/src/patterns/interpreter/StkChar.java" />
-        <option value="$PROJECT_DIR$/src/patterns/interpreter/StkInt.java" />
         <option value="$PROJECT_DIR$/src/patterns/interpreter/Operand.java" />
         <option value="$PROJECT_DIR$/src/patterns/interpreter/Expression.java" />
         <option value="$PROJECT_DIR$/src/patterns/interpreter/Variable.java" />
@@ -225,6 +224,14 @@
         <option value="$PROJECT_DIR$/src/patterns/template/Specialization.java" />
         <option value="$PROJECT_DIR$/src/patterns/template/Realization.java" />
         <option value="$PROJECT_DIR$/src/patterns/template/TemplateMethodDemo.java" />
+        <option value="$PROJECT_DIR$/src/patterns/visitor/Element.java" />
+        <option value="$PROJECT_DIR$/src/patterns/visitor/FOO.java" />
+        <option value="$PROJECT_DIR$/src/patterns/visitor/BAR.java" />
+        <option value="$PROJECT_DIR$/src/patterns/visitor/BAZ.java" />
+        <option value="$PROJECT_DIR$/src/patterns/visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/patterns/visitor/UpVisitor.java" />
+        <option value="$PROJECT_DIR$/src/patterns/visitor/DownVisitor.java" />
+        <option value="$PROJECT_DIR$/src/patterns/visitor/VisitorDemo.java" />
       </list>
     </option>
   </component>
@@ -280,7 +287,7 @@
               <item name="xeno" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -536,12 +543,12 @@
       <workItem from="1556171627498" duration="926000" />
       <workItem from="1557013086090" duration="19764000" />
       <workItem from="1558387434115" duration="7778000" />
-      <workItem from="1558488417703" duration="3462000" />
+      <workItem from="1558488417703" duration="3741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31930000" />
+    <option name="totallyTimeSpent" value="32209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -588,82 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/patterns/chain/LS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/chain/ChainDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/chain/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/command/SimpleCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/command/CommandDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/command/ReflectCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/StkChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/StkInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/Operand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1128,6 +1059,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/visitor/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/visitor/FOO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/visitor/BAR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/visitor/BAZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/visitor/UpVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/visitor/DownVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/visitor/VisitorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
