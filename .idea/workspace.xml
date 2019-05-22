@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0d36b53-b808-4141-83c3-e5326b81294d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/Expression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/InterpreterDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/Number.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/Operand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/Variable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/patterns/interpreter/InterpreterDemo.java" afterPath="$PROJECT_DIR$/src/patterns/interpreter/InterpreterDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,8 +118,8 @@
       <file leaf-file-name="InterpreterDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/InterpreterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="705">
+              <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -534,12 +529,12 @@
       <workItem from="1556171627498" duration="926000" />
       <workItem from="1557013086090" duration="19764000" />
       <workItem from="1558387434115" duration="7778000" />
-      <workItem from="1558488417703" duration="1288000" />
+      <workItem from="1558488417703" duration="1323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29756000" />
+    <option name="totallyTimeSpent" value="29791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -990,17 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/Variable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1031,10 +1015,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/interpreter/InterpreterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        <state relative-caret-position="705">
+          <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

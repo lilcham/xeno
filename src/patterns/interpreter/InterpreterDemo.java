@@ -45,7 +45,7 @@ public class InterpreterDemo {
                 out.append(token);
                 out.append(' ');
             } else {
-                while (!(empty = operationsStack.isEmpty()) && this.precedence(topSymbol =
+                while (!(empty = operationsStack.isEmpty()) && precedence(topSymbol =
                         operationsStack.pop(), token.charAt(0))) {
                     out.append(topSymbol);
                     out.append(' ');
