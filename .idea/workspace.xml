@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0d36b53-b808-4141-83c3-e5326b81294d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/BAR.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/BAZ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/DownVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/FOO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/UpVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/Visitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/patterns/visitor/VisitorDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a0d36b53-b808-4141-83c3-e5326b81294d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -543,12 +533,12 @@
       <workItem from="1556171627498" duration="926000" />
       <workItem from="1557013086090" duration="19764000" />
       <workItem from="1558387434115" duration="7778000" />
-      <workItem from="1558488417703" duration="3741000" />
+      <workItem from="1558488417703" duration="3759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32209000" />
+    <option name="totallyTimeSpent" value="32227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
