@@ -1,13 +1,13 @@
-#Xeno
+# Xeno
 This is a repository which contains various Java examples that were obtained
 via the internet to help with learning Java/Programming concepts, e.g. Concurrency,
 Testing, Design patterns. Continually being updated as I research more into various
 Java programming concepts.
 
-##Contents
+## Contents
 The various concepts are divided into packages to allow for quick access and readability:
 
-###concurrency
+### concurrency
 Mostly attempts to create various threading scenarios
 
 * **executor** - code representing attempted implementation of a simple executor
@@ -17,7 +17,7 @@ Mostly attempts to create various threading scenarios
 * **synchro** - code relating to synchronized methods and behaviour
 * **xeno** - code representing concurrent FizzBuzz using locks, semaphores, and synchronized
     
-###patterns
+### patterns
 These patterns relate to the google document containing various notes on 
 use, purpose, and other information.
 
