@@ -45,3 +45,8 @@ use, purpose, and other information.
 * **strategy** - code representing strategy pattern
 * **template** - code representing template pattern
 * **visitor** - code representing visitor pattern
+
+### testing
+A couple of objects and test classes that help with learning how to test in java 8 (Junit 5).
+
+* **testing** - currently has a simple math object and test
