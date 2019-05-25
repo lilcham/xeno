@@ -1,5 +1,6 @@
 package solid.single;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class AreaCalculator {
